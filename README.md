@@ -15,35 +15,35 @@ c. Red (Net): Es un conjunto de agentes conectados mediante cables, formando una
 ## Reglas de Interacción: <br> 
 Las reglas de interacción en el modelo de Net Interaction definen cómo los nodos interactúan entre sí a través de las conexiones (aristas). Estas reglas son fundamentales para entender cómo un sistema evoluciona y cómo las interacciones locales pueden dar lugar a comportamientos globales complejos. <br>
 
-## 1. Reglas de interacción entre nodos
+### 1. Reglas de interacción entre nodos
 Estas determinan cómo los nodos se relacionan entre sí.
 
 - Regla de propagación: Un nodo transmite su estado o información a los nodos vecinos.
 - Regla de acumulación: Un nodo actualiza su estado basado en las señales que recibe de otros nodos mediante una función de agregación.
 - Regla de filtrado: Un nodo interactúa con otro solo si se cumplen ciertas condiciones específicas.
-## 2. Reglas de flujo en las conexiones (aristas)
+### 2. Reglas de flujo en las conexiones (aristas)
 Estas especifican cómo los datos, recursos o señales fluyen por las conexiones.
 
 - Capacidad: La cantidad máxima de recurso o dato que puede fluir por una conexión.
 - Latencia: El tiempo que tarda en completarse una interacción a través de una conexión.
 - Dirección: Indica si el flujo es unidireccional o bidireccional.
-## 3. Reglas de estado de los nodos
+### 3. Reglas de estado de los nodos
 Definen cómo cambia el estado de un nodo a lo largo del tiempo.
 
 - Actualización en función del entorno: El estado de un nodo se modifica según las condiciones externas.
 - Actualización basada en interacciones: El estado cambia dependiendo del flujo recibido de otros nodos.
-4. Reglas de comunicación
+### 4. Reglas de comunicación
 Especifican las condiciones y restricciones para la transferencia de datos o recursos.
 
 - Disponibilidad: Un nodo solo transmite datos si tiene suficiente capacidad o recursos disponibles.
 - Prioridad: Algunos flujos tienen prioridad sobre otros en caso de competencia por recursos.
-## 5. Reglas de topología de la red
+### 5. Reglas de topología de la red
 Regulan cómo se crean, eliminan o modifican las conexiones entre nodos.
 
 - Creación dinámica de conexiones: Nuevas conexiones pueden aparecer si se cumplen ciertas condiciones.
 - Eliminación de conexiones: Las conexiones pueden desaparecer cuando ya no son necesarias.
 - Reconfiguración: Las conexiones pueden cambiar de peso o dirección dependiendo del contexto.
-## 6. Reglas de sincronización
+### 6. Reglas de sincronización
 Definen el momento en que las interacciones y actualizaciones ocurren.
 
 - Sincronización global: Todos los nodos actualizan sus estados al mismo tiempo.
