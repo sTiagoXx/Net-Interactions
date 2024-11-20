@@ -53,7 +53,7 @@ Un Net tiene la siguiente estructura:
 
 Nodos: Representan agentes con un comportamiento definido (por ejemplo, sumar, borrar, duplicar).
 Cables: Conectan los puertos de los nodos.
-Puertos:
+### Puertos:
 Principal: Es el punto principal de interacción.
 Auxiliares: Son las entradas/salidas adicionales.
 Ejemplo visual:
