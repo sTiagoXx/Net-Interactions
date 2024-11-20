@@ -1,5 +1,5 @@
 # Net Interactions
-El Net Interaction o Modelo de Interacción en Redes es una forma gráfica y conceptual de representar la computación como un 
+1. El Net Interaction o Modelo de Interacción en Redes es una forma gráfica y conceptual de representar la computación como un 
 conjunto de interacciones locales entre elementos básicos llamados agentes. Este modelo es una extensión natural de las 
 estructuras gráficas utilizadas en lógica lineal y programación funcional, y puede implementarse para representar algoritmos, realizar operaciones aritméticas y manejar estructuras de datos. En este informe, exploraremos los fundamentos del 
 modelo, explicaremos los conceptos asociados y analizaremos cómo se relacionan con otros temas computacionales.
@@ -17,3 +17,14 @@ Reglas de Interacción: Definen cómo los agentes conectados en sus puertos prin
 Agente A⋆Agente B→Nuevo Net
 
 donde ⋆ indica que los puertos principales están conectados.
+2. Estructura y Reglas en Nets
+Un Net tiene la siguiente estructura:
+
+Nodos: Representan agentes con un comportamiento definido (por ejemplo, sumar, borrar, duplicar).
+Cables: Conectan los puertos de los nodos.
+Puertos:
+Principal: Es el punto principal de interacción.
+Auxiliares: Son las entradas/salidas adicionales.
+Ejemplo visual:
+
+Un agente α con aridad 2 tiene un puerto principal y dos auxiliares:
