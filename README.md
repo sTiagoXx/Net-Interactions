@@ -73,9 +73,9 @@ y sus puertos auxiliares 𝑥𝑖 conectados a las raíces de otros árboles �
 Gráficamente, las estructuras primitivas de las redes de interacción pueden representarse de la siguiente manera:
 ![image](https://github.com/user-attachments/assets/5b71ca6e-b556-4c1c-a72c-860c701857f6)
 
-Cuando dos agentes están conectados entre sí a través de sus puertos principales, forman un par activo. Para los pares activos, se pueden introducir reglas de interacción que describen cómo el par activo se reescribe en otro net de interacción. Un net de interacción sin pares activos se dice que está en forma normal. Una firma Σ (con ar:Σ→N definida en ella) junto con un conjunto de reglas de interacción definidas para agentes α∈Σ constituyen un sistema de interacción.
+Cuando dos agentes están conectados entre sí a través de sus puertos principales, forman un par activo. Para los pares activos, se pueden introducir reglas de interacción que describen cómo el par activo se reescribe en otro net de interacción. Un net de interacción sin pares activos se dice que está en forma normal. Una firma Σ (con ar : Σ→N definida en ella) junto con un conjunto de reglas de interacción definidas para agentes α∈Σ constituyen un sistema de interacción.
 
-Explicación:
+### Explicación:
 
 En términos más simples, un par activo es como dos piezas de un rompecabezas que encajan perfectamente. Cuando estas piezas se conectan, pueden transformarse en una nueva configuración. Las reglas de interacción son las instrucciones que dictan cómo se realiza esta transformación.
 
