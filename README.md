@@ -48,7 +48,7 @@ Definen el momento en que las interacciones y actualizaciones ocurren.
 
 - Sincronización global: Todos los nodos actualizan sus estados al mismo tiempo.
 - Sincronización local: Solo ciertos nodos actualizan sus estados en un momento dado, dependiendo de su contexto.
-## 2. Estructura y Reglas en Nets
+## 2. Estructura
 Un Net tiene la siguiente estructura:
 
 - Nodos: Representan agentes con un comportamiento definido (por ejemplo, sumar, borrar, duplicar).
