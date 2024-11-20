@@ -15,9 +15,6 @@ c. Red (Net): Es un conjunto de agentes conectados mediante cables, formando una
 ## Reglas de Interacción: <br> 
 Las reglas de interacción en el modelo de Net Interaction definen cómo los nodos interactúan entre sí a través de las conexiones (aristas). Estas reglas son fundamentales para entender cómo un sistema evoluciona y cómo las interacciones locales pueden dar lugar a comportamientos globales complejos. <br>
 
-1. Reglas de interacción entre nodos
-Estas determinan cómo los nodos se relacionan entre sí.
-
 Regla de propagación: Un nodo transmite su estado o información a los nodos vecinos.
 Regla de acumulación: Un nodo actualiza su estado basado en las señales que recibe de otros nodos mediante una función de agregación.
 Regla de filtrado: Un nodo interactúa con otro solo si se cumplen ciertas condiciones específicas.
