@@ -51,11 +51,8 @@ Definen el momento en que las interacciones y actualizaciones ocurren.
 ## 2. Estructura y Reglas en Nets
 Un Net tiene la siguiente estructura:
 
-Nodos: Representan agentes con un comportamiento definido (por ejemplo, sumar, borrar, duplicar).
-Cables: Conectan los puertos de los nodos.
+- Nodos: Representan agentes con un comportamiento definido (por ejemplo, sumar, borrar, duplicar).
+- Cables: Conectan los puertos de los nodos.
 ### Puertos:
-Principal: Es el punto principal de interacción.
-Auxiliares: Son las entradas/salidas adicionales.
-Ejemplo visual:
-
-Un agente α con aridad 2 tiene un puerto principal y dos auxiliares:
+- Principal: Es el punto principal de interacción.
+- Auxiliares: Son las entradas/salidas adicionales.
