@@ -13,11 +13,7 @@ b. Puertos auxiliares, cuyo número depende de la operación que realice (su ari
 c. Red (Net): Es un conjunto de agentes conectados mediante cables, formando una estructura que puede transformarse dinámicamente. <br>
 
 ## Reglas de Interacción: <br> 
-Definen cómo los agentes conectados en sus puertos principales interactúan para transformarse en otros agentes o estructuras. Por ejemplo, una regla es:
-
-Agente A⋆Agente B→Nuevo Net
-
-donde ⋆ indica que los puertos principales están conectados.
+Las reglas de interacción en el modelo de Net Interaction definen cómo los nodos interactúan entre sí a través de las conexiones (aristas). Estas reglas son fundamentales para entender cómo un sistema evoluciona y cómo las interacciones locales pueden dar lugar a comportamientos globales complejos.
 ## 2. Estructura y Reglas en Nets
 Un Net tiene la siguiente estructura:
 
