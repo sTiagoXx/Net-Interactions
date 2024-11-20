@@ -71,4 +71,5 @@ Como un agente 𝛼 con su puerto principal libre 𝑥
 y sus puertos auxiliares 𝑥𝑖 conectados a las raíces de otros árboles 𝑡𝑖
 
 Gráficamente, las estructuras primitivas de las redes de interacción pueden representarse de la siguiente manera:
+![image](https://github.com/user-attachments/assets/5b71ca6e-b556-4c1c-a72c-860c701857f6)
 
