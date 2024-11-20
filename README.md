@@ -12,7 +12,7 @@ Un puerto principal (entrada o salida principal).
 Puertos auxiliares, cuyo número depende de la operación que realice (su aridad).
 Red (Net): Es un conjunto de agentes conectados mediante cables, formando una estructura que puede transformarse dinámicamente.
 
-Reglas de Interacción: Definen cómo los agentes conectados en sus puertos principales interactúan para transformarse en otros agentes o estructuras. Por ejemplo, una regla básica podría ser:
+Reglas de Interacción: Definen cómo los agentes conectados en sus puertos principales interactúan para transformarse en otros agentes o estructuras. Por ejemplo, una regla es:
 
 Agente A⋆Agente B→Nuevo Net
 
