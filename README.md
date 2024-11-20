@@ -56,3 +56,19 @@ Un Net tiene la siguiente estructura:
 ### Puertos:
 - Principal: Es el punto principal de interacción.
 - Auxiliares: Son las entradas/salidas adicionales.
+  Entonces...
+
+Un agente de tipo 𝛼
+α y con aridad ar(α)=n≥0 tiene un puerto principal y 𝑛 puertos auxiliares. Cada puerto puede estar conectado a lo sumo a una sola arista. Cada arista está conectada 
+exactamente a dos puertos. Los puertos que no están conectados a ninguna arista se denominan puertos libres. Los puertos libres, en conjunto, forman la 
+interfaz de una red de interacción. Todos los tipos de agentes pertenecen a un conjunto Σ llamado firma (signature).
+
+Una red de interacción que consiste únicamente en aristas se denomina un cableado (wiring) y se suele denotar como 𝜔. Un árbol 𝑡 con su raíz 
+𝑥 se define inductivamente ya sea como:
+
+Una arista 𝑥, o
+Como un agente 𝛼 con su puerto principal libre 𝑥
+y sus puertos auxiliares 𝑥𝑖 conectados a las raíces de otros árboles 𝑡𝑖
+
+Gráficamente, las estructuras primitivas de las redes de interacción pueden representarse de la siguiente manera:
+
