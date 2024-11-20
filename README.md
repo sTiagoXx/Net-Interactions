@@ -8,9 +8,9 @@ El Net Interaction es una representación computacional basada en grafos. En est
 
 Agentes: Representan operaciones o elementos computacionales (como sumar, duplicar, borrar, etc.). Cada agente tiene:
 
-Un puerto principal (entrada o salida principal). <br>
-Puertos auxiliares, cuyo número depende de la operación que realice (su aridad). <br>
-Red (Net): Es un conjunto de agentes conectados mediante cables, formando una estructura que puede transformarse dinámicamente. <br>
+a. Un puerto principal (entrada o salida principal). <br>
+b. Puertos auxiliares, cuyo número depende de la operación que realice (su aridad). <br>
+c. Red (Net): Es un conjunto de agentes conectados mediante cables, formando una estructura que puede transformarse dinámicamente. <br>
 
 ## Reglas de Interacción: <br> 
 Definen cómo los agentes conectados en sus puertos principales interactúan para transformarse en otros agentes o estructuras. Por ejemplo, una regla es:
