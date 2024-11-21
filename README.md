@@ -6,7 +6,7 @@ estructuras gráficas utilizadas en lógica lineal y programación funcional, y 
 
 El Net Interaction es una representación computacional basada en grafos. En este modelo:
 
-a. Agentes: Representan operaciones o elementos computacionales (como sumar, duplicar, borrar, etc.). Cada agente tiene:
+- Agentes: Representan operaciones o elementos computacionales (como sumar, duplicar, borrar, etc.). Cada agente tiene:
 
 b. Un puerto principal (entrada o salida principal). <br>
 c. Puertos auxiliares, cuyo número depende de la operación que realice (su aridad). <br>
