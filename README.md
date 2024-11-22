@@ -83,6 +83,9 @@ Un net de interacción es como un conjunto de estas piezas conectadas. Cuando to
 
 Una firma es como un catálogo de las diferentes tipos de piezas que pueden existir en un net. Un sistema de interacción es el conjunto completo de piezas y las reglas de cómo pueden interactuar entre sí.
 
+
+## Codigo de ejemplo:
+
 ```python
 class Agent:
     """Clase base para agentes en la red."""
