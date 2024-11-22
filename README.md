@@ -83,3 +83,71 @@ Un net de interacción es como un conjunto de estas piezas conectadas. Cuando to
 
 Una firma es como un catálogo de las diferentes tipos de piezas que pueden existir en un net. Un sistema de interacción es el conjunto completo de piezas y las reglas de cómo pueden interactuar entre sí.
 
+```python
+class Agent:
+    """Clase base para agentes en la red."""
+    def __init__(self, tipo, valor=None):
+        self.tipo = tipo  # Tipo del agente (Multiply, Add, Number, etc.)
+        self.valor = valor  # Valor numérico si es un agente de tipo Number
+        self.conexiones = []  # Conexiones con otros agentes
+
+    def conectar(self, otro_agente):
+        """Conecta este agente con otro."""
+        self.conexiones.append(otro_agente)
+        otro_agente.conexiones.append(self)
+
+    def __repr__(self):
+        return f"Agent(tipo='{self.tipo}', valor={self.valor})"
+
+# Reglas de interacción
+def regla_multiplicacion(agente1, agente2):
+    """Aplica la regla de multiplicación."""
+    if agente1.tipo == "Multiply" and agente2.tipo == "Number":
+        # Busca otro nodo Number conectado
+        for conexion in agente1.conexiones:
+            if conexion.tipo == "Number" and conexion != agente2:
+                producto = agente2.valor * conexion.valor
+                print(f"Multiplicación realizada: {agente2.valor} * {conexion.valor} = {producto}")
+                return Agent("Number", producto)  # Retorna un nuevo nodo con el resultado
+    print("Interacción no válida para multiplicación.")
+    return None
+
+def regla_suma(agente1, agente2):
+    """Aplica la regla de suma."""
+    if agente1.tipo == "Add" and agente2.tipo == "Number":
+        # Busca otro nodo Number conectado
+        for conexion in agente1.conexiones:
+            if conexion.tipo == "Number" and conexion != agente2:
+                suma = agente2.valor + conexion.valor
+                print(f"Suma realizada: {agente2.valor} + {conexion.valor} = {suma}")
+                return Agent("Number", suma)  # Retorna un nuevo nodo con el resultado
+    print("Interacción no válida para suma.")
+    return None
+
+# Crear agentes
+# Nodo para multiplicar
+multiply = Agent("Multiply")
+# Nodo para sumar
+add = Agent("Add")
+# Nodos con valores
+num1 = Agent("Number", 2)
+num2 = Agent("Number", 3)
+num3 = Agent("Number", 4)
+
+# Conectar los nodos para multiplicación
+multiply.conectar(num1)
+multiply.conectar(num2)
+
+# Aplicar la regla de multiplicación
+resultado_multiplicacion = regla_multiplicacion(multiply, num1)
+
+# Si hay un resultado de multiplicación, conéctalo al nodo Add para la suma
+if resultado_multiplicacion:
+    add.conectar(resultado_multiplicacion)
+    add.conectar(num3)
+
+    # Aplicar la regla de suma
+    resultado_final = regla_suma(add, resultado_multiplicacion)
+
+    if resultado_final:
+        print(f"Resultado final: {resultado_final.valor}")
